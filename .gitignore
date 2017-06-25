@@ -102,3 +102,6 @@ ENV/
 
 #vk_api
 vk_config.json
+
+#login script
+run.sh
