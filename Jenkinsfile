@@ -1,5 +1,5 @@
 pipeline {
-    agent { podman { image 'python:latest' } }
+    agent { docker { image 'python:latest' } }
     stages {
         stage('build') {
             steps {
